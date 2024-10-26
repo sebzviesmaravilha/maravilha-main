@@ -1,11 +1,9 @@
 import Head from "next/head";
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
 import { motion } from "framer-motion";
 
-export default function Commands() {
+export default function About() {
   return (
     <motion.div
       initial={{
@@ -24,10 +22,15 @@ export default function Commands() {
       </Head>
       <Navbar />
       <section className="about-section">
-        <nav className="accordion arrows" id="commands">
+        <h1 className="about-title">Hakkımda</h1>
+        <p className="about-intro">
+          Merhaba! Ben Maravilha, yazılım geliştirme ve topluluk yönetimi konularında tutkulu biriyim. Farklı projelerimle topluluğuma katkıda bulunmayı seviyorum.
+        </p>
+        
+        <nav className="accordion arrows" id="projects">
           <header className="box">
             <label htmlFor="acc-close" className="box-title h-color">
-              Yaptığım, ücretsiz veya ücretli olarak kullanıma sunduğum projelerim.
+              Üzerinde Çalıştığım Projeler
             </label>
           </header>
           <input type="radio" name="accordion" id="cb1" />
@@ -61,6 +64,7 @@ export default function Commands() {
               </ul>
             </div>
           </section>
+
           <input type="radio" name="accordion" id="cb2" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb2">
@@ -70,16 +74,16 @@ export default function Commands() {
             <div className="box-content p-color">
               <ul>
                 <li>
-                <strong><kbd>SA:MP Whitelist Botu</kbd></strong> -{" "}
-                  <span className="p-color">https://github.com/sebzviesmaravilha/samp-v14-whitelist</span>
+                  <strong><kbd>SA:MP Whitelist Botu</kbd></strong> -{" "}
+                  <span className="p-color"><a href="https://github.com/sebzviesmaravilha/samp-v14-whitelist" target="_blank" rel="noopener noreferrer">GitHub Projesi</a></span>
                 </li>
                 <li>
-                <strong><kbd>Discrd Anlık Veri Güncelleme</kbd></strong> -{" "}
-                  <span className="p-color">https://www.webailesi.com/konu-d-js-v14-anlik-sunucu-verilerini-gosterme-26002</span>
+                  <strong><kbd>Discord Anlık Veri Güncelleme</kbd></strong> -{" "}
+                  <span className="p-color"><a href="https://www.webailesi.com/konu-d-js-v14-anlik-sunucu-verilerini-gosterme-26002" target="_blank" rel="noopener noreferrer">Detaylı Bilgi</a></span>
                 </li>
                 <li>
-                <strong><kbd>Detaylı SQL Anlatımı</kbd></strong> -{" "}
-                  <span className="p-color">https://www.webailesi.com/konu-detayli-anlatim-sql-31530</span>
+                  <strong><kbd>Detaylı SQL Anlatımı</kbd></strong> -{" "}
+                  <span className="p-color"><a href="https://www.webailesi.com/konu-detayli-anlatim-sql-31530" target="_blank" rel="noopener noreferrer">Detaylı Bilgi</a></span>
                 </li>
               </ul>
             </div>
