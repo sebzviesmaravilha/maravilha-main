@@ -63,9 +63,6 @@ export default function About() {
           </div>
         </div>
         <p>
-          <Link href="/projects" className="h-color no-decoration">
-            Projelere Göz At &rarr;
-          </Link>
         </p>
 
         <section className="about-stats">
