@@ -22,9 +22,15 @@ export default function About() {
       </Head>
       <Navbar />
 
-      <h3 className="h-color">Asaf 'Maravilha'</h3>
-
-      <div className="about-container">
+      <section className="about-section" id="about-section">
+        <div className="about-header">
+          <h3 className="h-color">Neden bizi tercih etmelisiniz?</h3>
+          <p className="p-color">
+            Discord bot ve proje satışında kalite, güven ve müşteri memnuniyeti önceliğimizdir.
+            Müşterilerimize sunduğumuz ayrıcalıklı hizmetler ile fark yaratıyoruz.
+          </p>
+        </div>
+        <div className="about-container">
           <div className="about-card">
             <div>
               <h4 className="h-color">Uygun Fiyat</h4>
@@ -56,6 +62,27 @@ export default function About() {
             </div>
           </div>
         </div>
+        <p>
+          <Link href="/projects" className="h-color no-decoration">
+            Projelere Göz At &rarr;
+          </Link>
+        </p>
+
+        <section className="about-stats">
+          <div className="about-stats-card">
+            <h4 className="h-color">50+</h4>
+            <p className="p-color">Aktif Hizmet</p>
+          </div>
+          <div className="about-stats-card">
+            <h4 className="h-color">200+</h4>
+            <p className="p-color">Toplam Hizmet</p>
+          </div>
+          <div className="about-stats-card">
+            <h4 className="h-color">20+</h4>
+            <p className="p-color">Toplam Proje</p>
+          </div>
+        </section>
+      </section>
 
       <section className="about-section">
         <h1 className="about-title">Asaf 'Maravilha'</h1>
