@@ -10,10 +10,12 @@ const Showcase = () => {
       animate={{ opacity: 1 }}
     >
       <main className="showcase">
-        <h1 className="showcase-header h-color"><img src="/showcase.png" alt="" className="showcase-header h-color" /></h1>
-        <h2 className="showcase-header-text h-color">
-          Discord sunucularınız için özel ve profesyonel çözümler.
-        </h2>
+        <div className="showcase-header-container">
+          <img src="/showcase.png" alt="Maravilha Development Logo" className="showcase-logo" />
+          <h2 className="showcase-header-text h-color">
+            Discord sunucularınız için özel ve profesyonel çözümler.
+          </h2>
+        </div>
         <p className="showcase-para p-color">
           Herkes gibi kendi sunucunuzu özelleştirmek veya kişisel bot mu istiyorsunuz?
           Tam olarak doğru yere geldiniz!

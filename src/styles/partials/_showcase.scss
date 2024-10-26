@@ -27,6 +27,24 @@
     margin: 2rem;
   }
 
+  .showcase-header-container {
+    display: flex; /* Logo ve yazıyı yan yana yerleştirir */
+    align-items: center; /* Dikey olarak ortalar */
+    margin-bottom: 1rem; /* Yazı ile paragraflar arasında boşluk oluşturur */
+}
+
+.showcase-logo {
+    max-width: 150px; /* Logonun maksimum genişliği (isteğe bağlı) */
+    height: auto; /* Yüksekliği otomatik ayarlama */
+    margin-right: 1rem; /* Logonun sağında boşluk bırakır */
+}
+
+.showcase-header-text {
+    margin: 0; /* Varsayılan üst ve alt boşlukları kaldırır */
+    font-size: 1.5rem; /* Yazının boyutunu ayarlayın (isteğe bağlı) */
+    font-weight: bold; /* Yazıyı kalın yapar (isteğe bağlı) */
+}
+
   @media screen and (max-width: 260px) {
     flex-direction: row;
   }
