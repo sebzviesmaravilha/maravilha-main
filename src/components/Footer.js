@@ -42,7 +42,7 @@ const Footer = () => {
             <p className="p-color">
               Maravilha Development created by{" "}
               <Link
-                href="https://maravilhadev.vercel.app"
+                href="https://maravilha.space"
                 className="h-color no-decoration"
               >
                 Maravilha

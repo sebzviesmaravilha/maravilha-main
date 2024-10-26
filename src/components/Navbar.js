@@ -21,7 +21,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link className="p-color" href="/commands">
+              <Link className="p-color" href="/projects">
                 /projeler
               </Link>
             </li>

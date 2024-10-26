@@ -16,7 +16,7 @@ export default function Home() {
         <title>Maravilha Development</title>
         <meta
           name="description"
-          content="Maravilha Devs."
+          content="Maravilha Development, müşterilerine uygun fiyatlı ve profesyonel discord ürünleri sağlamak için Maravilha tarafından oluşturuldu."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
