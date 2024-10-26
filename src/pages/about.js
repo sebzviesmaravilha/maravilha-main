@@ -26,7 +26,7 @@ export default function About() {
         <div className="about-container">
           <div className="about-card">
             <div>
-              <h4 className="h-color"></h4>
+              <h4 className="h-color">Asaf "Maravilha"</h4>
               <p className="p-color">
               Merhaba! Ben Maravilha, yazılım geliştirme, topluluk yönetimi ve projelerle insanların hayatlarını kolaylaştırma konusunda tutkuyla çalışan bir geliştiriciyim. Teknoloji dünyasına olan ilgim, özellikle Discord botları, oyun sunucuları ve otomasyon çözümleri gibi alanlarda özgün projeler üretmemi sağlıyor. Yazılım yolculuğum boyunca, ücretli ve ücretsiz projelerle birçok farklı ihtiyaç ve talebe çözüm sunmaya odaklandım. Geliştirdiğim projeler arasında, toplulukların büyümesine yardımcı olacak çok yönlü botlardan, oyun sunucuları için özel olarak tasarlanmış araçlara kadar çeşitli çözümler yer alıyor. Her projede kullanıcı odaklı ve sürdürülebilir çözümler üretmeyi amaçlıyorum.
               </p>
