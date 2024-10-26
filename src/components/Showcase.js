@@ -18,21 +18,6 @@ const Showcase = () => {
           Herkes gibi kendi sunucunuzu özelleştirmek veya kişisel bot mu istiyorsunuz?
           Tam olarak doğru yere geldiniz!
         </p>
-
-        <span className="p-color">Siparişler ve destek için müsaitim!</span>
-        <div className="showcase-btn">
-          <button className="btn">
-            <Link className="h-color no-decoration" href="#">
-              Invite now!
-            </Link>
-          </button>
-
-          <button className="btn">
-            <Link className="h-color no-decoration" href="#">
-              Join server!
-            </Link>
-          </button>
-        </div>
       </main>
     </motion.div>
   );
