@@ -7,49 +7,37 @@
   height: 30rem;
   flex-direction: column;
   margin: 0.5rem;
-  
+
   .showcase-header {
     font-weight: 900;
     flex-wrap: wrap;
     padding: 1rem;
     font-size: 4.3rem;
+    margin-bottom: 0.5rem; /* Yazılar ile logonun arasında boşluk bırakır */
   }
+
+  .showcase-logo {
+    max-width: 200px; /* Logonun maksimum genişliğini artırdık */
+    height: auto; /* Yüksekliği otomatik ayarlama */
+  }
+
   h2 {
-    font-size: 1rem;
+    font-size: 1.5rem; /* Yazının boyutunu artırdık */
     font-weight: normal;
+    margin: 0.5rem 0; /* Yazı ile logo arasındaki boşluğu azaltır */
   }
+
   p {
-    flex-wrap: wrap;
-    font-size: medium;
-    font-size: 0.9rem;
+    font-size: 0.9rem; /* Paragraf yazısının boyutunu ayarlayın */
+    margin: 0.5rem 0; /* Paragraf ile diğer öğeler arasındaki boşluğu ayarlayın */
   }
+
   .showcase-btn {
     font-size: 1.3rem;
     margin: 2rem;
   }
 
-  .showcase-header {
-    text-align: center; /* Logonun ve metinlerin ortalanmasını sağlar */
-    margin-bottom: 1rem; /* Yazılar ile logonun arasında boşluk bırakır */
-}
-
-.showcase-logo {
-    max-width: 150px; /* Logonun maksimum genişliği (isteğe bağlı) */
-    height: auto; /* Yüksekliği otomatik ayarlama */
-}
-
-.showcase-header-text {
-    margin: 0; /* Varsayılan üst ve alt boşlukları kaldırır */
-    font-size: 1.5rem; /* Yazının boyutunu ayarlayın (isteğe bağlı) */
-    font-weight: bold; /* Yazıyı kalın yapar (isteğe bağlı) */
-    text-align: center; /* Yazıyı ortalar */
-}
-
-.showcase-para {
-    text-align: center; /* Paragraf metnini ortalar */
-}
-
   @media screen and (max-width: 260px) {
-    flex-direction: row;
+    flex-direction: row; /* Küçük ekranlar için yönü değiştirir */
   }
 }
