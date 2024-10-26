@@ -26,7 +26,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-            <Link className="p-color" href="/hakkımda">
+            <Link className="p-color" href="/about">
                 /hakkımda
               </Link>
             </li>
