@@ -17,14 +17,15 @@
   }
 
   .showcase-logo {
-    max-width: 250px; /* Logonun maksimum genişliğini artırdık */
+    max-width: 300px; /* Logonun maksimum genişliğini artırdık */
     height: auto; /* Yüksekliği otomatik ayarlama */
+    margin-bottom: 1rem; /* Logo ile yazılar arasına boşluk ekledik */
   }
 
   h2 {
     font-size: 1.5rem; /* Yazının boyutunu artırdık */
     font-weight: normal;
-    margin: 0.5rem 0; /* Yazı ile logo arasındaki boşluğu azaltır */
+    margin: 0.2rem 0; /* Yazılar arasındaki boşluğu ayarladık */
   }
 
   p {
