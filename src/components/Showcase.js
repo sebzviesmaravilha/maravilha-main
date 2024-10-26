@@ -10,7 +10,7 @@ const Showcase = () => {
       animate={{ opacity: 1 }}
     >
       <main className="showcase">
-        <h1 className="showcase-header h-color">Maravilha Development</h1>
+      <img src="/public/showcase.png" alt="Maravilha Development Logo" className="showcase-header h-color" />
         <h2 className="showcase-header-text h-color">
           Discord sunucularınız için özel ve profesyonel çözümler.
         </h2>
