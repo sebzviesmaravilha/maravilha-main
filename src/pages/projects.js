@@ -70,17 +70,21 @@ export default function Commands() {
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>SA:MP Whitelist Botu</kbd> -{" "}
+                <strong><kbd>SA:MP Whitelist Botu</kbd></strong> -{" "}
                   <span className="p-color">https://github.com/sebzviesmaravilha/samp-v14-whitelist</span>
                 </li>
                 <li>
-                  <kbd>SA:MP Whitelist Botu</kbd> -{" "}
-                  <span className="p-color">https://github.com/sebzviesmaravilha/samp-v14-whitelist</span>
+                <strong><kbd>Discrd Anlık Veri Güncelleme</kbd></strong> -{" "}
+                  <span className="p-color">https://www.webailesi.com/konu-d-js-v14-anlik-sunucu-verilerini-gosterme-26002</span>
+                </li>
+                <li>
+                <strong><kbd>Detaylı SQL Anlatımı</kbd></strong> -{" "}
+                  <span className="p-color">https://www.webailesi.com/konu-detayli-anlatim-sql-31530</span>
                 </li>
               </ul>
             </div>
           </section>
-          
+
           <input type="radio" name="accordion" id="acc-close" />
         </nav>
       </section>
