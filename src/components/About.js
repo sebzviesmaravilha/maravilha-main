@@ -5,52 +5,62 @@ const About = () => {
     <>
       <section className="about-section" id="about-section">
         <div className="about-header">
-          <h3 className="h-color">Why use this bot?</h3>
+          <h3 className="h-color">Neden bizi tercih etmelisiniz?</h3>
+          <p className="p-color">
+            Discord bot ve proje satışında kalite, güven ve müşteri memnuniyeti önceliğimizdir.
+            Müşterilerimize sunduğumuz ayrıcalıklı hizmetler ile fark yaratıyoruz.
+          </p>
         </div>
         <div className="about-container">
           <div className="about-card">
             <div>
-              <h4 className="h-color">⚡ Commands</h4>
+              <h4 className="h-color">Uygun Fiyat</h4>
               <p className="p-color">
-                We have more than 200 commands support in this bot.
+                Hizmetlerimiz piyasada bulunan insanların rahatlıkla elde edebilmesi için uygun fiyatlı tutuluyor.
               </p>
               <hr />
             </div>
             <div>
-              <h4 className="h-color">✉️ 24/7 Support</h4>
+              <h4 className="h-color">7/24 Destek</h4>
               <p className="p-color">
-                The biggest support community server for the bot available for
-                you anytime.
+                Herhangi bir sorunuz olduğunda veya yardıma ihtiyaç duyduğunuzda, 7/24 ulaşabileceğiniz destek ekibimiz her zaman yanınızda.
               </p>
               <hr />
             </div>
             <div>
-              <h4 className="h-color">✏️ Customization</h4>
+              <h4 className="h-color">Kişiselleştirilebilir Özellikler</h4>
               <p className="p-color">
-                Fully customizable discord bot completely FREE!
+                Botlarımız tamamen özelleştirilebilir olup, ihtiyacınıza göre düzenlenebilir. Üstelik bazı özel kişiselleştirme seçenekleri tamamen ÜCRETSİZ!
+              </p>
+              <hr />
+            </div>
+            <div>
+              <h4 className="h-color">Güvenilir ve Hızlı</h4>
+              <p className="p-color">
+                Hizmetlerimiz güvenilir sunucularda barındırılmakta olup hızlı, sorunsuz ve güvenli bir deneyim sunmaktadır.
               </p>
               <hr />
             </div>
           </div>
         </div>
         <p>
-          <Link href="/commands" className="h-color no-decoration">
-            Check out Commands &rarr;
+          <Link href="/projects" className="h-color no-decoration">
+            Projelere Göz At &rarr;
           </Link>
         </p>
 
         <section className="about-stats">
           <div className="about-stats-card">
-            <h4 className="h-color">17k+</h4>
-            <p className="p-color">Total Servers</p>
+            <h4 className="h-color">50+</h4>
+            <p className="p-color">Aktif Hizmet</p>
           </div>
           <div className="about-stats-card">
-            <h4 className="h-color">94k+</h4>
-            <p className="p-color">Total Users</p>
+            <h4 className="h-color">200+</h4>
+            <p className="p-color">Toplam Hizmet</p>
           </div>
           <div className="about-stats-card">
-            <h4 className="h-color">375k+</h4>
-            <p className="p-color">Total Commands</p>
+            <h4 className="h-color">20+</h4>
+            <p className="p-color">Toplam Proje</p>
           </div>
         </section>
       </section>
