@@ -84,13 +84,6 @@ export default function About() {
         </section>
       </section>
 
-      <section className="about-section">
-        <h1 className="about-title">Asaf 'Maravilha'</h1>
-        <p className="about-intro">
-          Merhaba! Ben Maravilha, yazılım geliştirme ve topluluk yönetimi konularında tutkulu biriyim. Farklı projelerimle topluluğuma katkıda bulunmayı seviyorum.
-        </p>
-      </section>
-
       <Footer />
     </motion.div>
   );
